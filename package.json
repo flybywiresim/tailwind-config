@@ -1,0 +1,16 @@
+{
+  "name": "@flybywiresim/tailwind-config",
+  "version": "1.0.0",
+  "description": "TailwindCSS configuration used by FlyByWire projects",
+  "main": "flybywire-tailwind-config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flybywiresim/tailwind-config.git"
+  },
+  "author": "FlyByWire Simulations",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flybywiresim/tailwind-config/issues"
+  },
+  "homepage": "https://github.com/flybywiresim/tailwind-config#readme"
+}
