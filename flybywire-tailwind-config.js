@@ -28,6 +28,9 @@ module.exports = {
                         'dark': '#1B2434',
                         'darker': '#141E30',
                     },
+                    grey: {
+                        'light': '#D4DADC'
+                    }
                 },
                 boxShadow: {
                     'md-dark': '1px 1px 7px 1px rgba(0, 0, 0, 0.2)',
@@ -36,6 +39,11 @@ module.exports = {
                     '2xl-light': '0 0 50px -20px rgba(255, 255, 255, 0.15)',
                 },
             },
+        },
+        variants: {
+            extend: {
+                opacity: ['disabled'],
+            }
         },
     },
     handler: function() {}
