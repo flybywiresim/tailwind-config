@@ -2,12 +2,21 @@ module.exports = {
     config: {
         theme: {
             extend: {
+                // Extend heights
                 height: () => ({
                     120: '30rem',
                     144: '36rem',
                     160: '40rem',
                     map: '40.3rem',
                 }),
+                // Extend screen sizes
+                screens: {
+                    'xs': '475px'
+                },
+                // Add color classes to the 'active' state
+                backgroundColor: ['active'],
+                textColor: ['active'],
+                // Animations
                 keyframes: {
                     wiggle: {
                         '0%, 100%': { transform: 'rotate(-1deg)' },
@@ -17,8 +26,7 @@ module.exports = {
                 animation: {
                     wiggle: 'wiggle 15s ease-in-out infinite',
                 },
-                backgroundColor: ['active'],
-                textColor: ['active'],
+                // Color Extension
                 colors: {
                     blue: {
                         'DEFAULT': '#6399AE',
@@ -42,6 +50,7 @@ module.exports = {
         },
         variants: {
             extend: {
+                // Add opacity classes to the 'disabled' state
                 opacity: ['disabled'],
             }
         },
