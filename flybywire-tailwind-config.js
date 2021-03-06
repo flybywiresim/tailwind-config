@@ -53,7 +53,7 @@ module.exports = {
                     },
                     navy: {
                         'DEFAULT': '#1b2434',
-                        'light:': '#1b2434',
+                        'light': '#1b2434',
                         'light-contrast': '#18202f',
                         'medium': '#161d2a',
                         'medium-contrast': '#131924',
