@@ -30,7 +30,11 @@ module.exports = {
                 colors: {
                     teal: {
                         'DEFAULT': '#00c2cc',
+                        'regular': '#00c2cc',
+                        // deprecated
                         'light': '#00c2cc',
+                        'regular-contrast': '#00afb7',
+                        // deprecated
                         'light-contrast': '#00afb7',
                         'medium': '#009ba2',
                         'medium-contrast': '#00888e',
@@ -53,7 +57,13 @@ module.exports = {
                     },
                     navy: {
                         'DEFAULT': '#1b2434',
+                        'lightest': '#273347',
+                        'lighter': '#222c3d',
+                        'regular': '#1b2434',
+                        // deprecated
                         'light': '#1b2434',
+                        'regular-contrast': '#18202f',
+                        // deprecated
                         'light-contrast': '#18202f',
                         'medium': '#161d2a',
                         'medium-contrast': '#131924',
