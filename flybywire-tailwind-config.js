@@ -30,7 +30,7 @@ module.exports = {
                 colors: {
                     teal: {
                         'DEFAULT': '#00c2cc',
-                        'regular:': '#00c2cc',
+                        'regular': '#00c2cc',
                         // deprecated
                         'light': '#00c2cc',
                         'regular-contrast': '#00afb7',
