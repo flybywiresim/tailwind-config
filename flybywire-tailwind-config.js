@@ -101,7 +101,6 @@ module.exports = {
             extend: {
                 // Add opacity classes to the 'disabled' state
                 opacity: ['disabled'],
-                animation: ['responsive', 'motion-safe', 'motion-reduce']
             }
         },
     },
