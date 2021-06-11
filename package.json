@@ -1,6 +1,6 @@
 {
   "name": "@flybywiresim/tailwind-config",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "TailwindCSS configuration used by FlyByWire projects",
   "main": "flybywire-tailwind-config.js",
   "repository": {
